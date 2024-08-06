@@ -1456,7 +1456,7 @@ background-color: rgba(0, 0, 0, 0.267); /* Transparent background initially */
 .single-blog-post {
   position: relative;
   z-index: 1;
-  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.060);
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.045);
   border-radius: 10px;
   margin-bottom: 5px; }
   .single-blog-post .post-thumbnail {
@@ -1853,7 +1853,7 @@ border-radius: 50%;}
       -ms-flex: 0 0 calc(100% - 110px);
       flex: 0 0 calc(100% - 110px);
       border-bottom: 2px solid;
-      border-color: #8d8400;
+      border-color: #8b8b8b;
       margin-bottom: 0;
       font-size: 14px;
       padding: 10px 0; }
