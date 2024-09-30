@@ -47,7 +47,9 @@ h6 {
   h5:hover {
 text-decoration: underline;}
 
-
+.single-blog-post {
+  margin-bottom: 100px; /* Adjust the value as needed */
+}
 
 p {
   color: #838383;
@@ -1318,7 +1320,7 @@ background-color: rgba(0, 0, 0, 0.267); /* Transparent background initially */
   z-index: 1;
   box-shadow: 0 2px 8px rgba(255, 255, 255, 0.060);
   border-radius: 10px;
-  margin-bottom: 5px; }
+  margin-bottom: 30px; }
   .single-blog-post .post-thumbnail {
     position: relative;
     z-index: 1; }
