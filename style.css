@@ -47,9 +47,6 @@ h6 {
   h5:hover {
 text-decoration: underline;}
 
-.single-blog-post {
-  margin-bottom: 100px; /* Adjust the value as needed */
-}
 
 p {
   color: #838383;
@@ -76,39 +73,7 @@ a {
     color: #ffd900; }
 
  
-/* __________________________________________________________________________
-__________________USER AREA____________________________________________
-_________________________________________________________________________ */
 
-
-    .username {text-align: center;
-      font-size: 18px;
-      color: #fff;
-      font-family: sans-serif;
-      margin-bottom: 20px;
-    margin-top: -10px;}
-      
-      .userbio { 
-        font-size: 8px;
-        text-align: center;
-      }
-
-.getintouch {
-
-   font-weight: bolder;
-   text-align: center;
-   margin-top: 30px;
-   margin-bottom: -10px;
-}
-
-      .usersince {
-        font-size: 8px;
-        font-style: bolder;
-        color: #9b9b9b;
-        text-align: center;
-        margin-top: -20px;
-        margin-bottom: 50px;
-      }
 
       .contributiontitle {
         font-weight: bolder;
@@ -152,18 +117,7 @@ _________________________________________________________________________ */
           padding-right: 0px;
           }} 
 
-.userpfp {
-  margin-top: -10px;
-  margin-bottom: 20px;
-text-align: center;
 
-
-}
-
-.userpfp img {
-  border-radius: 100%;
-  width: 25%;
-}
 
 
 .valid-tooltip {
@@ -1190,67 +1144,6 @@ background-color: rgba(0, 0, 0, 0.267); /* Transparent background initially */
 
 
 
-/* :: Hero Slides Area CSS */
-.hero-area {
-  position: relative;
-  z-index: 1; }
-  .hero-area .hero-slides {
-    position: relative;
-    z-index: 10; }
-    .hero-area .hero-slides .single-hero-slide {
-      height: 600px;
-      position: relative;
-      z-index: 1; }
-      @media only screen and (min-width: 768px) and (max-width: 991px) {
-        .hero-area .hero-slides .single-hero-slide {
-          height: 450px; } }
-      @media only screen and (max-width: 767px) {
-        .hero-area .hero-slides .single-hero-slide {
-          height: 600px; } }
-  .hero-area .hero-post-area {
-    position: absolute;
-    bottom: 40px;
-    left: 0;
-    width: 100%;
-    z-index: 200; }
-  .hero-area .hero-post-slide .single-slide .post-number {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 80px;
-    flex: 0 0 80px;
-    min-width: 80px; }
-    .hero-area .hero-post-slide .single-slide .post-number p {
-      width: 55px;
-      height: 55px;
-      border: 5px solid;
-      border-color: #838383;
-      margin-right: 25px;
-      border-radius: 50%;
-      margin-bottom: 0;
-      text-align: center;
-      line-height: 45px;
-      font-size: 24px;
-      font-family: "Ubuntu", sans-serif;
-      font-weight: 700; }
-  .hero-area .hero-post-slide .single-slide .post-title a {
-    margin-bottom: 0;
-    font-size: 14px;
-    font-weight: 700;
-    color: #838383; }
-  .hero-area .hero-post-slide .center .single-slide .post-number p {
-    border: 5px solid;
-    border-top-color: #ffd900;
-    border-bottom-color: #ffd900;
-    border-left-color: #838383;
-    border-right-color: #ffd900; }
-  .hero-area .hero-post-slide .center .single-slide .post-title a {
-    color: #ffffff;
-    font-weight: 700; }
-
-    .nab-tabs {
-      padding: 10px 0;
-      /* border-top: 50px; */
-      border-top: 30px solid #a3a3a300;
-      border-bottom: 1.75px solid #a3a3a3; }
 
 
 /* Blog Content Area CSS */
@@ -1318,9 +1211,9 @@ background-color: rgba(0, 0, 0, 0.267); /* Transparent background initially */
 .single-blog-post {
   position: relative;
   z-index: 1;
-  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.060);
+  box-shadow: 0 2px 8px rgba(255, 255, 255, 0.045);
   border-radius: 10px;
-  margin-bottom: 30px; }
+  margin-bottom: 5px; }
   .single-blog-post .post-thumbnail {
     position: relative;
     z-index: 1; }
@@ -1715,7 +1608,7 @@ border-radius: 50%;}
       -ms-flex: 0 0 calc(100% - 110px);
       flex: 0 0 calc(100% - 110px);
       border-bottom: 2px solid;
-      border-color: #8d8400;
+      border-color: #8b8b8b;
       margin-bottom: 0;
       font-size: 14px;
       padding: 10px 0; }
@@ -1736,8 +1629,8 @@ border-radius: 50%;}
 .contact-form,
 .post-a-comment-area {
   padding: 60px 55px;
-  border-radius: 10px;
-  box-shadow: 0 1px 5px rgba(255, 255, 255, 0.15); }
+  border-radius: 20px;
+  box-shadow: 0 1px 5px rgba(147, 147, 147, 0.483); }
   @media only screen and (max-width: 767px) {
     .contact-form,
     .post-a-comment-area {
