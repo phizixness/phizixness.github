@@ -1,0 +1,22 @@
+[
+    {
+        "title": "How Astronomers detect Exoplanets and their properties?",
+        "content": "Welcome to the home page of our website. We offer a wide range of services.",
+        "url": "index.html"
+    },
+    {
+        "title": "About Us",
+        "content": "Learn more about our team and our mission to deliver the best services.",
+        "url": "about.html"
+    },
+    {
+        "title": "Services",
+        "content": "We provide various services, including web development, SEO optimization, and digital marketing.",
+        "url": "services.html"
+    },
+    {
+        "title": "Contact",
+        "content": "Get in touch with us through our contact page for any inquiries or support.",
+        "url": "contact.html"
+    }
+]
